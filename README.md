@@ -1,1 +1,3 @@
 # e-memento
+
+The main objective of e-memento website is to enable users to add their important events for reminding purpose through e-mail or SMS. One can login as a client or the admin by entering their username and password. Already existing users can login while new users have to create an account. Once clients have created their accounts and logged in, they can add their reminder by entering their details which include event name or details about payment, reminder date, duration of the reminder. Clients can also view, edit and delete their list of reminders. Admins have access to the database which stores the client details. Admins only can manage the database and send reminder through e-mail or SMS.
