@@ -1,0 +1,90 @@
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+    font-family: 'Gochi Hand', cursive;
+    background-image: url("https://image.freepik.com/free-photo/desk-office_23-2148110207.jpg");
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+}
+
+#bodycontent{
+    margin-top:150px;
+    margin-bottom:75px;
+    padding-top:75px;
+    padding-bottom:75px;
+    
+}
+
+.jumbotron{
+    
+    transform: rotateZ(-10deg);
+    background-color: rgb(255 219 45);
+    border-radius: 15px 15px 15px;
+}
+
+
+.nav-tabs,.nav-links{
+    background-color: hsl(248, 32%, 49%);
+    border-radius: 15px 15px 15px;
+    box-shadow: -2px 2px 0px 2px rgba(0,0,0,0.3);
+    
+    
+}
+
+
+
+.nav-pills .nav-link.active, .nav-pills .show>.nav-link {
+    color: black;
+    background-color: yellow;
+    border: 3px solid white;
+    border-radius: 15px 15px 15px;
+}
+
+a.nav-link{
+    color: white;
+    border-radius: 15px 15px 15px;
+}
+
+.btn{
+    background-color: hsl(154, 59%, 45%);
+}
+
+.form-control{
+    display: inline-flex;
+}
+
+form{
+    background-color: white;
+    border-radius: 15px 15px 15px;
+    margin-top: 10px;   
+}
+
+hr{
+    border: 2px inset white;
+    width: 75%;
+    border-radius: 15px 15px 15px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+
+form,.jumbotron{
+    box-shadow: -2px 2px 0px 2px rgba(0,0,0,0.3);
+}
+
+a:hover{
+    background-color: green;
+}
+
+@media (min-width:1000px){
+    .jumbotron{
+        width: 50%;
+        transform: translateX(-25%) rotateZ(-10deg);
+        
+    }
+}
